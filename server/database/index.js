@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const yourDB = 'yourDatabaseName';
+const yourDB = 'portfolioDB';
 const mongoURI = `mongodb://localhost/${yourDB}`;
 
 const db = mongoose.connect(mongoURI, (err, success) => {
